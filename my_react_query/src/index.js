@@ -28,7 +28,7 @@ setInterval(() => {
     <React.StrictMode>
       <QueryClientProvider client={queryClient}>
         <ReactQueryDevtools initialIsOpen={true}/>
-        {/* <App/> */}
+        <App/>
         {/* <Todos/> */}
       </QueryClientProvider>  
     </React.StrictMode>
