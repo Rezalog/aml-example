@@ -14,7 +14,7 @@ const queryClient = new QueryClient({
 }); 
 
 
-const App => () => {
+const App = () => {
 
   const [postId, setPostId] = useState(-1);
 
